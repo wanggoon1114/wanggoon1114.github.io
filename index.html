@@ -13,60 +13,38 @@
 </head>
 
 <body>
-    <!-- Anchors (links) -->
-    <a href="#0" class="button">Learn More</a>
-    <a href="#features" class="button">View All Features</a>
-
-    <!-- Buttons (actions) -->
-    <button type="button" class="success button">Save</button>
-    <button type="button" class="alert button">Delete</button>
-
-    <a class="tiny button" href="#0">So Tiny</a>
-    <a class="small button" href="#0">So Small</a>
-    <a class="large button" href="#0">So Large</a>
-    <a class="expanded button" href="#0">Such Expand</a>
-
-    <div class="button-group">
-        <a class="button">One</a>
-        <a class="button">Two</a>
-        <a class="button">Three</a>
-    </div>
-
-    <div class="callout">
-        <h5>This is a callout.</h5>
-        <p>It has an easy to override visual style, and is appropriately subdued.</p>
-        <a href="#0">It's dangerous to go alone, take this.</a>
-    </div>
-
-    <div class="callout primary">
-        <h5>This is a primary callout.</h5>
-        <p>It has an easy to override visual style, and is appropriately subdued.</p>
-        <a href="#0">It's dangerous to go alone, take this.</a>
-    </div>
-
-    <div class="callout secondary">
-        <h5>This is a secondary callout</h5>
-        <p>It has an easy to override visual style, and is appropriately subdued.</p>
-        <a href="#0">It's dangerous to go alone, take this.</a>
-    </div>
-
-    <div class="callout success">
-        <h5>This is a success callout</h5>
-        <p>It has an easy to override visual style, and is appropriately subdued.</p>
-        <a href="#0">It's dangerous to go alone, take this.</a>
-    </div>
-
-    <div class="callout warning">
-        <h5>This is a warning callout</h5>
-        <p>It has an easy to override visual style, and is appropriately subdued.</p>
-        <a href="#0">It's dangerous to go alone, take this.</a>
-    </div>
-
-    <div class="callout alert">
-        <h5>This is an alert callout</h5>
-        <p>It has an easy to override visual style, and is appropriately subdued.</p>
-        <a href="#0">It's dangerous to go alone, take this.</a>
-    </div>
+<div class="orbit" role="region" aria-label="Favorite Text Ever" data-orbit>
+  <ul class="orbit-container">
+    <button class="orbit-previous" aria-label="previous"><span class="show-for-sr">Previous Slide</span>&#9664;</button>
+    <button class="orbit-next" aria-label="next"><span class="show-for-sr">Next Slide</span>&#9654;</button>
+    <li class="is-active orbit-slide">
+      <div class="docs-example-orbit-slide">
+        <p><strong>This is dodgerblue.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </li>
+    <li class="orbit-slide">
+      <div class="docs-example-orbit-slide">
+        <p><strong>This is rebeccapurple.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </li>
+    <li class="orbit-slide">
+      <div class="docs-example-orbit-slide">
+        <p><strong>This is darkgoldenrod.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </li>
+    <li class="orbit-slide">
+      <div class="docs-example-orbit-slide">
+        <p><strong>This is lightseagreen.</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </li>
+  </ul>
+  <nav class="orbit-bullets">
+    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+  </nav>
+</div>
 </body>
 
 </html>
