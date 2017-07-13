@@ -54,6 +54,7 @@ h2 {
 .contact { 
   color : darkgreen;  font-size: 16px;
   font-weight: 300;
+  text-align: right;
 }
 
 .myPhotos {
