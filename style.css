@@ -3,21 +3,16 @@ a {
   text-decoration: none;
 }
 
-img {
-  border-radius: 100%;
-}
 
 body {
-  background-image: url("http://www.freepptbackgrounds.net/wp-content/uploads/2013/11/Digital-Camera-PPT-Backgrounds.jpg");
-  margin: 10;
-  padding: 10;
+  background-color : lightgrey;
+  background-size: cover;
 }
 
 .header {
-  ;
   background-position: center center;
   background-size: cover;
-  height: 700px;
+  height: 300px;
   width: 100%;
 }
 
@@ -30,35 +25,43 @@ body {
 }
 
 h1 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 70px;
-  font-weight: 400;
+  font-family: 'Covered By Your Grace', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0 auto;
+  position: relative;
   text-align: center;
-  line-height: 60px;
-  margin: 10;
+  top: 20%;
 }
 
 h2 {
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Ruda', sans-serif;
   text-align: center;
   font-size: 28px;
   font-weight: 100;
 }
 
-h3 {
-  color: #FFF;
-  font-family: 'Quicksand', sans-serif;
+.introduction {
+  font-family: 'Oswald', sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 30px;
   margin: 10px 0px;
-  text-align: center;
+  line-height: 1.5em;
 }
 
-h4 {
-  color: #CCC;
-  font-family: 'Quicksand', sans-serif;
+.contact { 
+  color : darkgreen;
+  font-family: 'Anton', sans-serif;
   font-size: 16px;
   font-weight: 300;
+}
+
+.myPhotos {
+  border : 2px solid black;
+  margin : auto;
+  padding : 20px;
+  width : 700px;
+
 }
