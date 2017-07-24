@@ -1,0 +1,46 @@
+.sw-max-width{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sw-main-header{
+    background-color: moccasin;
+    padding: 20px;
+}
+
+.sw-main-news{
+    font-family: 'Covered By Your Grace', sans-serif;
+    width : 50%;
+}
+
+.img-main{
+    width : 400px;
+    float : right;
+}
+
+.sw-middle-bar{
+    margin-top: 30px;
+    border-bottom: 1px solid gold;
+}
+
+.sw-title{
+    background-color: lightcyan;
+    margin: 5px;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
+.sw-title-img{
+    width: 600px;
+    margin: 0px auto;
+}
+
+.sw-card{
+    margin-top: 10px;
+}
+
+.sw-card-left{
+    height: 150px;
+    background-color: lavender;
+}
