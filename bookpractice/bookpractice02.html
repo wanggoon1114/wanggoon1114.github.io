@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Html PRACTICE 02</title>
+    <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Raleway:100,500,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="bookpractice02st.css">
+</head>
+
+<body>
+    <h2 class="maintitle">폼, 방문자로부터 정보를 수집하는 방법이다.</h2>
+    <p class="maintitle">우리 웹진에 사용할 수 있을 듯 하다.</p>
+    <form action="http://www.example.com/login/php">
+        <p>
+            이름 :
+            <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>
+            비밀번호 :
+            <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+    </form>
+
+    <fieldset class="fieldbox">
+        <legend>선호 영역</legend>
+        <form action="http://www.example.com/favor.php">
+            <p>가장 인상적이었던 주제는 무엇인가요?<br>
+                <input type="radio" name="category" value="mathhis"> 수학사
+                <input type="radio" name="category" value="mathmatician"> 수학자
+                <input type="radio" name="category" value="mathclass"> 수학교실
+                <input type="radio" name="category" value="mathtool"> 수학교구
+                <input type="radio" name="category" value="mathlife"> 생활 속 수학
+                <input type="radio" name="category" value="mathpuzzle"> 수학퍼즐
+                <input type="radio" name="category" value="mathcareer"> 진로
+            </p>
+        </form><br>
+
+        <form action="http://www.example.com/favor.php">
+            <p>가장 인상적이었던 주제는 무엇인가요?<br>
+                <input type="checkbox" name="category" value="mathhis"> 수학사
+                <input type="checkbox" name="category" value="mathmatician"> 수학자
+                <input type="checkbox" name="category" value="mathclass"> 수학교실
+                <input type="checkbox" name="category" value="mathtool"> 수학교구
+                <input type="checkbox" name="category" value="mathlife"> 생활 속 수학
+                <input type="checkbox" name="category" value="mathpuzzle"> 수학퍼즐
+                <input type="checkbox" name="category" value="mathcareer"> 진로
+            </p>
+        </form><br>
+    </fieldset><br><br>
+    <fieldset class="fieldbox">
+        <legend>자유 의견</legend>
+        <form action="http://www.example.com/comments.php">
+            <p>수학교육센터에 대한 다양한 의견을 제시해주세요.</p>
+            <textarea name="comments" id="" cols="30" rows="10">어떠한 의견이 있으신가요?</textarea>
+        </form><br>
+    </fieldset>
+    <form action="http://www.example.com/send.php">
+        <p>의견 전달하기: <input type="submit" name="comment" value="전송"></p>
+    </form>
+
+    <h4>
+        퀴즈: fieldset 박스의 크기를 조절하려면? 어떻게 할까요? 맞추면 커피 한 잔.<br>
+        진짜 질문 : 왜 글꼴이 적용안될까요ㅠ
+    </h4>
+</body>
